@@ -7,7 +7,7 @@ FROM ramadhani892/ramagans:slim-buster
 # ======================
 
 
-RUN git clone -b KARMAN-USERBOT https://github.com/ArmanGG01/KARMAN-USERBOT /home/ram-ubot/ \
+RUN git clone -b ganekei https://github.com/KEIZER-USSBOT/ganekei /home/ram-ubot/ \
     && chmod 777 /home/ram-ubot \
     && mkdir /home/ram-ubot/bin/
 WORKDIR /home/ram-ubot/
