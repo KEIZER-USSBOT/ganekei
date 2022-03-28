@@ -1,8 +1,8 @@
 
 {
-  "name": "KARMAN U-BOT",
-  "description": "KARMAN U-BOT KHUSUS YANG DIGUNAKAN UNTUK BERSENANG-SENANG DI TELEGRAM.",
-  "logo": "https://telegra.ph/file/c97811e33743ce755ada5.jpg",
+  "name": "KEIZER U-BOT",
+  "description": "KEIZER U-BOT KHUSUS YANG DIGUNAKAN UNTUK BERSENANG-SENANG DI TELEGRAM.",
+  "logo": "https://telegra.ph/file/4d14aa693b4875380dd7b.jpg",
   "keywords": [
     "telegram",
     "userbot",
@@ -10,9 +10,9 @@
     "modular",
     "productivity"
   ],
-  "repository": "https://github.com/ArmanGG01/KARMAN-USERBOT/KARMAN U-BOT",
-  "telegram": "https://t.me/PakkPoll",
-  "success_url": "https://t.me/DeployBot01",
+  "repository": "https://github.com/KEIZER-USSBOT/ganekei/KEIZER U-BOT",
+  "telegram": "https://t.me/keizerJKN",
+  "success_url": "https://t.me/keizersupport",
   "stack": "container",
   "env": {
     "API_KEY": {
