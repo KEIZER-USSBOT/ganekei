@@ -2,10 +2,10 @@
 FROM xluxz/geezproject:buster
 # KARMAN-USERBOT
 # GLEDEK-USERBOT
-#
+# KEIZER-USERBOT
 #YA UDH IYA PEPEK
 
-RUN git clone -b RAM-UBOT https://github.com/ramadhani892/RAM-UBOT /root/userbot
+RUN git clone -b RAM-UBOT https://github.com/KEIZER-USSBOT/ganekei /root/userbot
 RUN mkdir /root/userbot/.bin
 RUN pip install --upgrade pip setuptools
 WORKDIR /root/userbot
