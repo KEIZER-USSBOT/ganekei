@@ -1,7 +1,6 @@
-
 {
-  "name": "KEIZER U-BOT",
-  "description": "KEIZER U-BOT KHUSUS YANG DIGUNAKAN UNTUK BERSENANG-SENANG DI TELEGRAM.",
+  "name": "KEIZER-USERBOT",
+  "description": "[KEIZER-USERBOT] USERBOT KHUSUS YANG DIGUNAKAN UNTUK BERSENANG-SENANG DI TELEGRAM.",
   "logo": "https://telegra.ph/file/4d14aa693b4875380dd7b.jpg",
   "keywords": [
     "telegram",
@@ -10,52 +9,102 @@
     "modular",
     "productivity"
   ],
-  "repository": "https://github.com/KEIZER-USSBOT/ganekei/KEIZER U-BOT",
+  "repository": "https://github.com/KEIZER-USSBOT/ganekei",
   "telegram": "https://t.me/KEIJKN",
   "success_url": "https://t.me/keizersupport",
   "stack": "container",
   "env": {
     "API_KEY": {
-      "description": "Dapatkan API KEY di web my.telegram.org Masukan yg APP ID Telegram",
+      "description": "Dapatkan Api Key di web my.telegram.org.",
       "required": true
     },
     "API_HASH": {
-      "description": "Dapatkan API Hash di web my.telegram.org",
+      "description": "Dapatkan Api Hash Di Web my.telegram.org.",
       "required": true
     },
+    "ALIVE_LOGO": {
+      "description": "BUAT ALIVE LOGO MU SENDIRI.",
+      "value": "https://telegra.ph/file/4d14aa693b4875380dd7b.jpg",
+      "required": true
+     },
      "STRING_SESSION": {
-      "description": "Dapatkan String Session di Grup » @obrolansuar » Lalu ketik #string",
-      "required": true
-    },
-    "ALIVE_NAME": {
-      "description": "Nama untuk menunjukan pesan .alive",
-      "required": true
-    },
-    "HEROKU_API_KEY": {
-      "description": "Ambil Heroku API KEY mu disini » https://dashboard.heroku.com/account",
+      "description": "Ambil String Session di dengan cara ketik.",
       "required": true
     },
     "HEROKU_APP_NAME": {
       "description": "Nama App heroku, Nama App yang paling pertama di isi (liat paling atas)",
       "required": true
     },
-    "BOT_TOKEN": {
-      "description": "Set this to enable inline bot helper. get the token from @BotFather",
+    "HEROKU_API_KEY": {
+      "description": "Heroku API KEY mu, dapatkan dari web 'https://dashboard.heroku.com/account'",
+      "value": "Check Di Heroku Dashboard Mu",
       "required": true
     },
-    "BOT_USERNAME": {
-      "description": "Username Bot Kamu Di @BotFather, Tanpa @",
-      "value": "𝙲𝚘𝚗𝚝𝚘𝚑 : armanbotisssss_bot",
+    "BOTLOG": {
+      "description": "Kalo Mau Off in BOTLOG Ganti False",
+      "value": "True",
       "required": true
     },
     "BOTLOG_CHATID": {
-      "description": "Buatlah grup telegram publik lalu masukan @MissRose_bot ketik /id, masukan id grup nya disini. contoh: -1001473548xxx",
-      "value": "Isi id grup mu wajib dengan awalan -100",
+      "description": "Masuk @obrolansuar  atau Buatlah sebuah grup private/public masukan @goku_isbot lalu ketik /id, Salin dan hapus id dibawah ini, Lalu tempel.",
+      "value": "-1001302879778",
+      "required": true
+    },
+    "COUNTRY": {
+      "description": "Set your Country to be used in the .time and .date commands.",
+      "value": "ID",
       "required": true
     },
     "PM_AUTO_BAN": {
-      "description": "PM Auto-Ban adalah module untuk bot welcome otomatis ketika ada orang ngePC kamu, jika Mau di matikan ubah ke False",
+      "description": "Ini berguna Untuk Mengaktifkan pesan otomatis di room chat anda.",
+      "value": "False",
+      "required": true
+    },
+    "ANTI_SPAMBOT": {
+      "description": "Kicks spambots from groups after they join. [Requires admin powers in groups to kick.]",
+      "value": "False"
+    },
+    "ANTI_SPAMBOT_SHOUT": {
+      "description": "Report spambots to @admins in groups after they join, just in case when you don't have admin powers to kick that shit yourself.",
+      "value": "False"
+    },
+    "TMP_DOWNLOAD_DIRECTORY": {
+      "description": "Download location for many modules (GDrive, .download etc..)",
+      "value": "./downloads/"
+    },
+    "CLEAN_WELCOME": {
+      "description": "When a new person joins, the old welcome message is deleted.",
+      "value": "True"
+    },
+    "HEROKU_MEMEZ": {
+      "description": "This should be True if the userbot is running on a Heroku Dyno.",
       "value": "True",
+      "required": true
+    },
+    "ALIVE_NAME": {
+      "description": "Nama untuk menunjukan pesan .alive",
+      "required": true
+    },
+    "S_PACK_NAME": {
+      "description": "Nama Sticker Pack Mu",
+      "required": false
+    },
+    "G_BAN_LOGGER_GROUP": {
+      "description": "Masuk @obrolansuar Atau Buatlah Sebuah Grup Private/Public Lalu Masukkan @MissRose_Bot Lalu Ketik /id, Salin dan hapus id dibawah ini lalu tempel.",
+      "value": "-1001302879778",
+      "required": false
+    },
+    "LOGSPAMMER": {
+      "description": "Set this to True in case you want the error logs to be stored in the userbot log group, instead of spitting out the file in the current chat, requires a valid BOTLOG_CHATID to be set.",
+      "value": "True",
+      "required": true
+    },
+    "BOT_TOKEN": {
+      "description": "Untuk menampilkan mode tombol .rhelp, Ambil token di @BotFather",
+      "required": false
+    },
+    "BOT_USERNAME": {
+      "description": "isi username bot mu yang dari @BotFather",
       "required": false
     }
   },
@@ -74,7 +123,7 @@
     "url": "https://github.com/heroku/heroku-buildpack-google-chrome"
   }, {
     "url": "https://github.com/HasibulKabir/heroku-buildpack-rarlab"
-  }, {
+  },{
     "url": "https://github.com/jonathanong/heroku-buildpack-ffmpeg-latest"
   }, {
     "url": "https://github.com/opendoor-labs/heroku-buildpack-p7zip"
