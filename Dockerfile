@@ -1,19 +1,16 @@
-# Using Python Slim-Buster
-FROM xluxz/geezproject:buster
-# KEIZER-USERBOT
-# KARMAN-USERBOT
-#
-#YA UDH IYA PEPEK
+FROM ramadhani892/ramagans:slim-buster
 
-RUN git clone -b RAM-UBOT https://github.com/ramadhani892/RAM-UBOT /root/userbot
-RUN mkdir /root/userbot/.bin
-RUN pip install --upgrade pip setuptools
-WORKDIR /root/userbot
+# Rama ganteng, Yang hapus credit, Lo babi heheh
+# ======================
+#    RAM-UBOT DOCKER
+#   FROM DOCKERHUB.COM
+# ======================
 
-#Install python requirements
-RUN pip3 install -r https://raw.githubusercontent.com/ramadhani892/RAM-UBOT/RAM-UBOT/requirements.txt
 
-EXPOSE 80 443
+RUN git clone -b ganekei https://github.com/KEIZER-USSBOT/ganekei /home/ram-ubot/ \
+    && chmod 777 /home/ram-ubot \
+    && mkdir /home/ram-ubot/bin/
+WORKDIR /home/ram-ubot/
 
-# Finalization
-CMD ["python3","-m","userbot"]
+
+CMD ["python3", "-m", "userbot"]
