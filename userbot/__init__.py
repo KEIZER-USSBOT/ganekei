@@ -121,7 +121,7 @@ UPSTREAM_REPO_URL = os.environ.get(
     "UPSTREAM_REPO_URL",
     "https://github.com/KEIZER-USSBOT/ganekei")
 UPSTREAM_REPO_BRANCH = os.environ.get(
-    "UPSTREAM_REPO_BRANCH", "KEIZER-USSBOT")
+    "UPSTREAM_REPO_BRANCH", "ganekei")
 
 # sudo
 SUDO_USERS = {int(x) for x in os.environ.get("SUDO_USERS", "").split()}
@@ -198,14 +198,14 @@ YOUTUBE_API_KEY = os.environ.get("YOUTUBE_API_KEY", None)
 RAM_TEKS_KOSTUM = os.environ.get("RAM_TEKS_KOSTUM") or "ㅤ"
 
 # Untuk Melihat Repo
-REPO_NAME = os.environ.get("REPO_NAME") or "🀄KEIZER-USERBOT🀄"
+REPO_NAME = os.environ.get("REPO_NAME") or "🀄ganekei🀄"
 
 # DEVS
 DEVS = (
     2077846555, # kitaro
     1694909518, # arman
     2021195895, # keizer
-    1826643972, # rama
+    1826643972, #rama
 )
 # DI HAPUS KU TANDAI!
 
@@ -255,25 +255,25 @@ S_PACK_NAME = os.environ.get("S_PACK_NAME", None)
 
 # Default .alive Logo
 ALIVE_LOGO = os.environ.get(
-    "ALIVE_LOGO") or "https://telegra.ph/file/4d14aa693b4875380dd7b.jpg"
+    "ALIVE_LOGO") or "https://telegra.ph/file/c462ecd5d46ebaeb5b9d8.jpg"
 
 # Default .helpme logo
 HELP_LOGO = os.environ.get(
-   "HELP_LOGO") or "https://telegra.ph/file/4d14aa693b4875380dd7b.jpg"
+   "HELP_LOGO") or "https://telegra.ph/file/c462ecd5d46ebaeb5b9d8.jpg"
 
 # Default .alive Instagram
-IG_ALIVE = os.environ.get("IG_ALIVE") or "instagram.com/ None"
+IG_ALIVE = os.environ.get("IG_ALIVE") or "instagram.com/arman_nasution123"
 
 # Default emoji help
-EMOJI_HELP = os.environ.get("EMOJI_HELP") or "🔥"
+EMOJI_HELP = os.environ.get("EMOJI_HELP") or "👑"
 
 INLINE_PIC = (
-    os.environ.get("INLINE_PIC") or "https://telegra.ph/file/4d14aa693b4875380dd7b.jpg"
+    os.environ.get("INLINE_PIC") or "https://telegra.ph/file/9dc4e335feaaf6a214818.jpg"
 )
 
 # Picture For VCPLUGIN
 PLAY_PIC = (
-    os.environ.get("PLAY_PIC") or "https://telegra.ph/file/4d14aa693b4875380dd7b.jpg"
+    os.environ.get("PLAY_PIC") or "https://telegra.ph/file/6213d2673486beca02967.png"
 )
 
 QUEUE_PIC = (
@@ -286,12 +286,12 @@ GROUP_LINK = os.environ.get(
 
 # Default .repo Bot
 OWNER_BOT = os.environ.get(
-    "OWNER_BOT") or "t.me/KEIJKN"
+    "OWNER_BOT") or "t.me/PakkPoll"
 
 
 # Last.fm Module
 BIO_PREFIX = os.environ.get("BIO_PREFIX", None)
-DEFAULT_BIO = os.environ.get("DEFAULT_BIO") or "🀄 KEIZER-USERBOT 🀄"
+DEFAULT_BIO = os.environ.get("DEFAULT_BIO") or "💀 KARMAN-USERBOT 💀"
 
 LASTFM_API = os.environ.get("LASTFM_API", None)
 LASTFM_SECRET = os.environ.get("LASTFM_SECRET", None)
@@ -333,7 +333,7 @@ QUOTES_API_TOKEN = os.environ.get("QUOTES_API_TOKEN", None)
 
 # Defaul botlog msg
 BOTLOG_MSG = os.environ.get(
-    "BOTLOG_MSG") or f"```💢 KEIZER - USERBOT 𝚄𝙳𝙰𝙷 𝙰𝙺𝚃𝙸𝙵 💢\n\n╼┅━━━━━╍━━━━━┅╾\n❍▹ Branch : KEIZER-UBOT\n❍▹ BotVer : 9.0\n❍▹``` Owner : [KEIZER](https://t.me/KEIJKN)\n\n╼┅━━━━━╍━━━━━┅╾\n\n```𝙹𝙰𝙽𝙶𝙰𝙽 𝙺𝙰𝚄 𝙺𝙴𝙻𝚄𝙰𝚁 𝙳𝙰𝚁𝙸 𝙶𝚁𝚄𝙿 𝙺𝚄```\n@obrolansuar\n ```𝙱𝙸𝙰𝚁 𝙺𝙰𝚄 𝚃𝙰𝚄 𝙸𝙽𝙵𝙾,𝙿𝙴𝙿𝙴𝙺.\n ```𝙹𝙸𝙺𝙰 𝙱𝙾𝚃 𝚃𝙸𝙳𝙰𝙺 𝙱𝙸𝚂𝙰  .ping 𝚂𝙸𝙻𝙰𝙷𝙺𝙰𝙽 𝙲𝙷𝙴𝙲𝙺 𝚅𝙸𝚆𝙻𝙾𝙶 𝙿𝙰𝙳𝙰 𝙰𝙺𝚄𝙽 𝙷𝙴𝚁𝙾𝙺𝚄 𝙰𝚃𝙰𝚄 𝙿𝚄𝙽 𝙱𝙸𝚂𝙰 𝙻𝙰𝙽𝙶𝚂𝚄𝙽𝙶 𝙿𝙲 𝙳𝙸 𝙱𝙰𝚆𝙰𝙷 👇"
+    "BOTLOG_MSG") or f"```💢 KARMAN - USERBOT 𝚄𝙳𝙰𝙷 𝙰𝙺𝚃𝙸𝙵 💢\n\n╼┅━━━━━╍━━━━━┅╾\n❍▹ Branch : 𝙺𝙰𝚁𝙼𝙰𝙽-𝚄𝙱𝙾𝚃\n❍▹ BotVer : 9.0\n❍▹``` Owner : [𝙰𝚁𝙼𝙰𝙽](https://t.me/PakkPoll)\n\n╼┅━━━━━╍━━━━━┅╾\n\n```𝙹𝙰𝙽𝙶𝙰𝙽 𝙺𝙰𝚄 𝙺𝙴𝙻𝚄𝙰𝚁 𝙳𝙰𝚁𝙸 𝙶𝚁𝚄𝙿 𝙺𝚄```\n@obrolansuar\n ```𝙱𝙸𝙰𝚁 𝙺𝙰𝚄 𝚃𝙰𝚄 𝙸𝙽𝙵𝙾,𝙿𝙴𝙿𝙴𝙺.\n ```𝙹𝙸𝙺𝙰 𝙱𝙾𝚃 𝚃𝙸𝙳𝙰𝙺 𝙱𝙸𝚂𝙰  .ping 𝚂𝙸𝙻𝙰𝙷𝙺𝙰𝙽 𝙲𝙷𝙴𝙲𝙺 𝚅𝙸𝚆𝙻𝙾𝙶 𝙿𝙰𝙳𝙰 𝙰𝙺𝚄𝙽 𝙷𝙴𝚁𝙾𝙺𝚄 𝙰𝚃𝙰𝚄 𝙿𝚄𝙽 𝙱𝙸𝚂𝙰 𝙻𝙰𝙽𝙶𝚂𝚄𝙽𝙶 𝙿𝙲 𝙳𝙸 𝙱𝙰𝚆𝙰𝙷 👇"
 
 # Deezloader
 DEEZER_ARL_TOKEN = os.environ.get("DEEZER_ARL_TOKEN", None)
@@ -479,8 +479,8 @@ DEFAULTUSER = str(ALIVE_NAME) if ALIVE_NAME else uname().node
 
 async def update_restart_msg(chat_id, msg_id):
     DEFAULTUSER = ALIVE_NAME or "Set `ALIVE_NAME` ConfigVar!"
-    message = OKE 
-        f"**KEIZER-USERBOT v{BOT_VER} Sedang berjalan!**\n\n"
+    message = (
+        f"**💀KARMAN-USERBOT💀 v{BOT_VER} Sedang berjalan!**\n\n"
         f"**Telethon:** {version.__version__}\n"
         f"**Python:** {python_version()}\n"
         f"**User:** {DEFAULTUSER}"
@@ -575,11 +575,11 @@ with bot:
         async def handler(event):
             await event.message.get_sender()
             text = (
-                f"**Hey**, __I am using__  **🀄 KEIZER-USERBOT 🀄** \n\n"
+                f"**Hey**, __I am using__  **💀 KARMAN-USERBOT 💀** \n\n"
                 f"       __Thanks For Using me__\n\n"
                 f"🗿 **Group Support :** [OS](t.me/obrolansuar)\n"
-                f"⚠️ **Owner Repo :** [KEIZER](t.me/KEIJKN)\n"
-                f"📌 **Repo :** [KEIZER-USSBOT](https://github.com/KEIZER-USSBOT/ganekei)\n"
+                f"⚠️ **Owner Repo :** [ARMAN](t.me/PakkPoll)\n"
+                f"📌 **Repo :** [KARMAN-USERBOT](https://github.com/ArmanGG01/KARMAN-USERBOT)\n"
             )
             await tgbot.send_file(
                 event.chat_id,
@@ -588,7 +588,7 @@ with bot:
                 buttons=[
                     [
                         custom.Button.url(
-                            text="🌜 REPO KEIZER-USERBOT 🌛",
+                            text="👑 REPO KARMAN-USERBOT 👑",
                             url="https://github.com/ArmanGG01/KARMAN-USERBOT",
                         )
                     ],
@@ -613,20 +613,20 @@ with bot:
                 result = builder.photo(
                     file=ramlogo,
                     link_preview=True,
-                    text=f"**🌜 INLINE KEIZER-USERBOT 🌛**\n\n❥ **𝙾𝚆𝙽𝙴𝚁 :** [𝙰𝚁𝙼𝙰𝙽](t.me/PakkPoll)\n❥ **𝙱𝙾𝚃 𝚅𝙴𝚁 :** 9.0\n❥ **𝙹𝚄𝙼𝙻𝙰𝙷 :** `{len(dugmeler)}` 𝙼𝙾𝙳𝚄𝙻𝙴𝚂",
+                    text=f"**👑 𝙸𝙽𝙻𝙸𝙽𝙴 KARMAN-USERBOT 👑**\n\n❥ **𝙾𝚆𝙽𝙴𝚁 :** [𝙰𝚁𝙼𝙰𝙽](t.me/PakkPoll)\n❥ **𝙱𝙾𝚃 𝚅𝙴𝚁 :** 9.0\n❥ **𝙹𝚄𝙼𝙻𝙰𝙷 :** `{len(dugmeler)}` 𝙼𝙾𝙳𝚄𝙻𝙴𝚂",
                     buttons=buttons,
                 )
             elif query.startswith("repo"):
                 result = builder.article(
                     title="Repository",
-                    description="Repository 🌜KEIZER-USERBOT🌛",
+                    description="Repository 👑KARMAN-USERBOT👑",
                     url="https://t.me/obrolansuar",
-                    text="**🀄KEIZER-USERBOT🀄**\n✠╼━━━━━━━━━━━❖━━━━━━━━━━━✠\n👑 **Owner :** [KEIZER](https://t.me/KEIJKN)\n👑 **Support :** @obrolansuar\n👑 **Repository :** [🀄KEIZER-USERBOT🀄](https://github.com/KEIZER-USSBOT/ganekei)\n✠╼━━━━━━━━━━━❖━━━━━━━━━━━✠ ",
+                    text="**💀KARMAN-USERBOT💀**\n✠╼━━━━━━━━━━━❖━━━━━━━━━━━✠\n👑 **Owner :** [ARMAN](https://t.me/PakkPoll)\n👑 **Support :** @obrolansuar\n👑 **Repository :** [💀KARMAN-USERBOT💀](https://github.com/ArmanGG01/KARMAN-USERBOT)\n✠╼━━━━━━━━━━━❖━━━━━━━━━━━✠ ",
                     buttons=[
                         [
                             custom.Button.url("ɢʀᴏᴜᴘ", "https://t.me/obrolansuar"),
                             custom.Button.url(
-                                "ʀᴇᴘᴏ", "https://github.com/KEIZER-USSBOT/ganekei"
+                                "ʀᴇᴘᴏ", "https://github.com/ArmanGG01/KARMAN-USERBOT"
                             ),
                         ],
                     ],
@@ -634,15 +634,15 @@ with bot:
                 )
             else:
                 result = builder.article(
-                    title="🀄KEIZER-USERBOT 🀄",
-                    description="KEIZER-USERBOT | Telethon",
+                    title="💀KARMAN-USERBOT💀",
+                    description="KARMAN-USERBOT | Telethon",
                     url="https://t.me/obrolansuar",
-                    text=f"**KEIZER-USERBOT**\n✠╼━━━━━━━━━━━❖━━━━━━━━━━━✠\n👑 **OWNER:** [KEIZER](t.me/KEIJKN)\n👑 **Assistant:** {tgbotusername}\n✠╼━━━━━━━━━━━❖━━━━━━━━━━━✠\n**Support:**@DeplyoBot01\n✠╼━━━━━━━━━━━❖━━━━━━━━━━━✠",
+                    text=f"**KARMAN-USERBOT**\n✠╼━━━━━━━━━━━❖━━━━━━━━━━━✠\n👑 **OWNER:** [ARMAN](t.me/PakkPoll)\n👑 **Assistant:** {tgbotusername}\n✠╼━━━━━━━━━━━❖━━━━━━━━━━━✠\n**Support:**@DeplyoBot01\n✠╼━━━━━━━━━━━❖━━━━━━━━━━━✠",
                     buttons=[
                         [
                             custom.Button.url("ɢʀᴏᴜᴘ", "https://t.me/obrolansuar"),
                             custom.Button.url(
-                                "ʀᴇᴘᴏ", "https://github.com/KEIZER-USSBOT/ganekei"
+                                "ʀᴇᴘᴏ", "https://github.com/ArmanGG01/KARMAN-USERBOT"
                             ),
                         ],
                     ],
@@ -676,27 +676,27 @@ with bot:
                 result = builder.photo(
                     file=ramlogo,
                     link_preview=False,
-                    text=f"🀄KEIZER-USERBOT🀄\n\n👑**Owner : [KEIZER](t.me/KEIJKN)**\n\n👑 **Bot Ver :** `9.0`\n👑 **𝗠odules :** `{len(dugmeler)}`",
+                    text=f"💀KARMAN-USERBOT💀\n\n👑**Owner : [ARMAN](t.me/PakkPoll)**\n\n👑 **Bot Ver :** `9.0`\n👑 **𝗠odules :** `{len(dugmeler)}`",
                     buttons=buttons,
                 )
             elif query.startswith("tb_btn"):
                 result = builder.article(
-                    "Bantuan Dari 🀄KEIZER-USERBOT🀄 ",
+                    "Bantuan Dari 💀KARMAN-USERBOT💀 ",
                     text="Daftar Plugins",
                     buttons=[],
                     link_preview=True)
             else:
                 result = builder.article(
-                    " 🀄KEIZER-USERBOT🀄 ",
-                    text="""**🀄KEIZER-USERBOT🀄\n\n Anda Bisa Membuat Keizer Userbot Anda Sendiri Dengan Cara:** __TEKEN DIBAWAH INI!__ 👇""",
+                    " 💀KARMAN-USERBOT💀 ",
+                    text="""**💀KARMAN-USERBOT💀\n\n Anda Bisa Membuat Karman Userbot Anda Sendiri Dengan Cara:** __TEKEN DIBAWAH INI!__ 👇""",
                     buttons=[
                         [
                             custom.Button.url(
-                                "🀄KEIZER-USERBOT🀄",
-                                "https://github.com/KEIZER-USSBOT/ganekei"),
+                                "💀KARMAN-USERBOT💀",
+                                "https://github.com/ArmanGG01/KARMAN-USERBOT"),
                             custom.Button.url(
                                 "OWNER",
-                                "t.me/KEIJKN")]],
+                                "t.me/PakkPoll")]],
                     link_preview=False,
                 )
             await event.answer([result] if result else None)
@@ -733,7 +733,7 @@ with bot:
                     buttons=[
                         [
                             Button.url("📢 Channel Support",
-                                       "t.me/katakeizer"),
+                                       "t.me/DeployBot01"),
                             Button.url("📌 Group support",
                                        "t.me/obrolansuar")],
                         [Button.inline("Open Menu", data="nepo")],
